@@ -1,3 +1,5 @@
+#pragma once
+
 #include <string>
 
 class Cutie {
@@ -13,4 +15,4 @@ class Cutie {
 
     virtual std::string get_description() = 0;
     virtual int get_cuteness_rating() = 0;
-}
+};
